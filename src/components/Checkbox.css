@@ -1,0 +1,54 @@
+.statWrapper {
+	display: flex;
+	flex-direction: column;
+	padding-left: 40px;
+	align-items: center;
+}
+
+.saveDate {
+	background-color: #257432;
+}
+
+.saveDate {
+	padding: 10px 20px;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.checkbox_container {
+	text-align: center;
+}
+
+.checkbox_wrap {
+	margin-bottom: 7px;
+}
+
+.checkbox_container input[type='checkbox'] {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+	position: relative;
+}
+
+.checkbox_container input[type='checkbox']:checked {
+	background-color: #257432;
+}
+
+.checkbox_container input[type='checkbox']:checked::before {
+	content: '\2714';
+	font-size: 16px;
+	color: white;
+	display: block;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
