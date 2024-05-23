@@ -7,7 +7,6 @@ const GroupBlock = () => {
 	const groupArray = useLoaderData()
 
 	const array = groupArray.map(group => {
-		// console.log(group)
 		return (
 			<div>
 				<NavLink className='link' to={`/student/${group.id}`}>
