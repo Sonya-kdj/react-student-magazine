@@ -23,7 +23,7 @@ const Checkbox = ({ studentsArray, datesArray }) => {
 		)
 	})
 
-	// console.log(saveDateElements)
+	
 
 	return <>{saveDateElements}</>
 }
