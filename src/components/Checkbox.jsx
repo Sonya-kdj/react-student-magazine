@@ -2,7 +2,7 @@ import './Checkbox.css'
 
 const Checkbox = ({ studentsArray, datesArray }) => {
 	const saveDateElements = datesArray[0].map((stats, i) => {
-		// console.log(stats)
+		
 		return (
 			<div className='statWrapper'>
 				<p className='saveDate'>{stats.date}</p>
