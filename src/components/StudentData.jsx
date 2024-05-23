@@ -5,7 +5,7 @@ import './StudentData.css'
 
 const StudentData = () => {
 	const data = useLoaderData()
-	// console.log(data)
+	
 
 	return (
 		<div className='dataWrapper'>
